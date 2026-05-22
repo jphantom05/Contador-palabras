@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+   background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.caja {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.cajaContador {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.numero {
+    font-size: 18px;
+    color: #333;
+}
+
+.oculto {
+    display: none;
+}
+
+h1 {
+    color: #4e07f3;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+   font-weight: bold;
+}

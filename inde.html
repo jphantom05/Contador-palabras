@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contador de palabras y caracteres</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="contenedor">
         <h1>Contador de palabras</h1>
         <p>Ingrese un texto para contar las palabras:</p>
-        <textarea id="inputText" rows="20" cols="80" placeholder="Ingrese el texto aquí"></textarea><br>
+        <textarea  class="caja" id="inputText" rows="20" cols="80" placeholder="Ingrese el texto aquí"></textarea><br>
 
         <div class="cajaContador">
             <div class="numero">
-                <span id="numPalabras">0</span>Numero de palabras <br>
-
-                <span id="numCaracteres">0</span>Número de caracteres
+                <span id="numPalabras" class="oculto">0</span> Numero de palabras <br>                
             </div>
-
+            <div class="numero">
+                <span id="numCaracteres" class="oculto">0</span> Numero de caracteres
+            </div>    
+            
         </div>
     </div>
     
